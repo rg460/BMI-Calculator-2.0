@@ -6,8 +6,9 @@ weight = float(input("enter your weight in kg: "))
 
 #Write your code below this line 👇
 #  calculate bmi - BMI = Weight (kg) / Height (m)²  
+height_sqrd = height * height;
 
-bmi = weight / (height * height);
+bmi = weight / height_sqrd;
 bmi_as_a_int = round(bmi)
 
  # if statement to determine interpretation of their BMI based on the BMI value
